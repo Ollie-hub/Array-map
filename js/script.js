@@ -1,4 +1,4 @@
-// Øvelse 1: Happy Hour
+//---------------------------------------- Øvelse 1 ----------------------------------------
 let arr1 = [2, 5, 100]; 
 
 let newArr1 = arr1.map((val, index, arr) => {
@@ -9,7 +9,7 @@ console.log(newArr1);
 // [4, 10, 200]
 
 
-// Øvelse 2
+//---------------------------------------- Øvelse 2 ----------------------------------------
 let arr2 = [2, 5, 100]; 
 
 let newArr2 = arr2.map((val, index, arr) => {
@@ -19,7 +19,7 @@ console.log(newArr2);
 // Result =>
 // ["2", "5", "100"]
 
-// Øvelse 3 
+//---------------------------------------- Øvelse 3 ----------------------------------------
 let arr3 = ["lone", "Allan", "Hello woRld", "tim22"]
 
 let newArr3 = arr3.map((val, index, arr) => {
@@ -29,7 +29,7 @@ console.log(newArr3)
 // Result => 
 // ["LONE", "ALLAN", "HELLO WORLD", "TIM22"]
 
-// Øvelse 4 
+//---------------------------------------- Øvelse 4 ----------------------------------------
 let arr4 = [
     { name: "Mads Mikkelsen", age: 80},
     { name: "Sofie Gråbøl", age: 2},
@@ -44,7 +44,7 @@ console.log(newArr4)
 // Result => 
 // ["Mads Mikkelsen", "Sofie Gråbøl", "Sidse Babett Knudsen", "Nikolaj Lie Kaas", "Frank Hvam"]
 
-// Øvelse 5 
+//----------------------------------------  Øvelse 5 ----------------------------------------
 let arr5 = [
     { name: "Mads Mikkelsen", age: 80},
     { name: "Sofie Gråbøl", age: 2},
@@ -63,7 +63,7 @@ console.log(newArr5)
 // "Nikolaj Lie Kaas er IKKE gammel nok!!", 
 // "Frank Hvam er gammel nok"]
 
-// Øvelse 6
+//---------------------------------------- Øvelse 6 ----------------------------------------
 let arr6 = [
     { name: "Mads Mikkelsen", age: 80},
     { name: "Sofie Gråbøl", age: 2},
