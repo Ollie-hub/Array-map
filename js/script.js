@@ -53,7 +53,7 @@ let arr5 = [
     { name: "Frank Hvam", age: 100}];
 
 let newArr5 = arr5.map((val, index, arr) => {
-    return val.age >= 18 ? `${val.name} er gamme nok` : `${val.name} er IKKE gammel nok!!`
+    return val.age >= 18 ? `${val.name} er gammel nok` : `${val.name} er IKKE gammel nok!!`
 });
 console.log(newArr5)
 // Result => 
